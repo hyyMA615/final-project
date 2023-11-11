@@ -3,7 +3,7 @@ library(mapsapi)
 library(googleway)
 library(leaflet)
 library(lubridate)
-key = "AIzaSyBH-3cO3XwG-uZJIxh0Pmd5W1uB48tulyE"
+key = ""
 
 ui <- fluidPage(
   textInput(inputId = "name1", label = "Origin Stop"),

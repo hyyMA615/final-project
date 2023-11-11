@@ -4,7 +4,7 @@ library(leaflet)
 library(mapsapi)
 
 dataselectroute <- read.csv("/Users/brenda/Desktop/CS615/homework/final project/final/dataselectroute.csv")
-key = "AIzaSyBH-3cO3XwG-uZJIxh0Pmd5W1uB48tulyE"
+key = ""
 
 ui <- fluidPage(
     selectInput(inputId = "line", label = "Route_Name", choices = c("Green-B", "Green-C", "Green-D", "Green-E","Mattapan","Orange","Blue","Red")),
